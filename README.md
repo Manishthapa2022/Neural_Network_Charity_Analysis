@@ -45,5 +45,5 @@ For this project, I created three models and took the following steps:
 
 ![Overall Results](https://github.com/Manishthapa2022/Neural_Network_Charity_Analysis/blob/main/Analysis/Overall_results.png)
 
-It can be see that in spite of the changes made in the models, there is almost negligible improvement in the overall accuracy score.
+Overall, in spite of the changes made in the models on this dataset, there is negligible improvement in the overall accuracy score and our best model performance was 72.5% and we missed the overall target of 75% by 2.5%. Further analysis of the dataset is required to understand 
 
