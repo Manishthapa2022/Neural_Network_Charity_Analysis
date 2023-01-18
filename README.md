@@ -26,8 +26,8 @@ For this project, I created three models and took the following steps:
 * For the third model nn2, the activation function for hidden layer 2 and 3 was changed from relu to sigmoid to boost the accuracy and also significantly reduce both the training and evaluation times. 
 * Inn all three models (nn, nn1 and nn2), there was a gradual reduction in the number of the neurons starting from the first to last hidden layer to improve the dynamics of the model. 
 * Unfortunaetely, we were unable to achieve the Target model performance of 75%. 
-* To improve the overall performance of the model, additional columns with feature importance less than 1% were dropped. After that, three models nn, nn1 and nn2 were created where the number of neurons, no of hidden layers and the activation function was changed. No of epochs were not increased as there was negligible improvement in the accuracy scores at around epoch 30 to 40. 
+* To improve the overall performance of the model, additional columns with feature importance less than 1% were dropped. After that, three models nn, nn1 and nn2 were created where the number of neurons, no of hidden layers and the activation function were changed. No of epochs were not increased as there was negligible improvement in the accuracy scores at around epoch 30 to 40. 
 
 ## Summary
-
+Overall, we were unable to reach the desired performance goal of 75% inspite of dropping more columns, increasing the number of neurons, adding hidden layers and even changing the activation function. 
 
