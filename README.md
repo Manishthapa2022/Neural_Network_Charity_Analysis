@@ -28,29 +28,29 @@ X=X.drop(X[least_relevant], axis=1)
 print(X.shape)
 X.head()
 ```
-![]()
+![](https://github.com/Manishthapa2022/Neural_Network_Charity_Analysis/blob/main/Analysis/relevance_features.png)
 
 ### Compiling, Training and Evaluating the Model
 
 **Accuracy of model after Deliverable 2**
 
-![]()
+![](https://github.com/Manishthapa2022/Neural_Network_Charity_Analysis/blob/main/Analysis/nn_2_layer.png)
 
 For this project, I created three models and took the following steps:
 * For the first model nn, the number of layers were increased from 2 to 3. For Deliverable 1 and 2 two hidden layers were used that was increased to 3 for Deliverable 3. Three layers were used to improve the capacity/computation efficiency of the model. 
 **Accuracy of model after changing the layers**
 
-![]()
+![](https://github.com/Manishthapa2022/Neural_Network_Charity_Analysis/blob/main/Analysis/nn_3layer.png)
 
 * For the second model nn1, the number of neurons were increased to three times the input parameters to increase the weights and ensure good training. 
 **Accuracy of the model after increasing neurons**
 
-![]()
+![](https://github.com/Manishthapa2022/Neural_Network_Charity_Analysis/blob/main/Analysis/nn1_layer.png)
 
 * For the third model nn2, the activation function for hidden layer 2 and 3 was changed from relu to sigmoid to boost the accuracy and also significantly reduce both the training and evaluation times. 
 **Accuracy of the model after changing activation function**
 
-![]()
+![](https://github.com/Manishthapa2022/Neural_Network_Charity_Analysis/blob/main/Analysis/nn2_analysis.png)
 
 * Inn all three models (nn, nn1 and nn2), there was a gradual reduction in the number of the neurons starting from the first to last hidden layer to improve the dynamics of the model. 
 * Unfortunaetely, we were unable to achieve the Target model performance of 75%. 
@@ -60,5 +60,9 @@ For this project, I created three models and took the following steps:
 
 ![Overall Results](https://github.com/Manishthapa2022/Neural_Network_Charity_Analysis/blob/main/Analysis/Overall_results.png)
 
-Overall, in spite of the changes made in the models on this dataset, there is negligible improvement in the overall accuracy score and our best model performance was 72.5% and we missed the overall target of 75% by 2.5%. Further analysis of the dataset is required to understand 
+Overall, in spite of the changes made in the models on this dataset, there is negligible improvement in the overall accuracy score and our best model performance was 72.5% and we missed the overall target of 75% by 2.5%. 
+
+### Recommendations
+
+I would recommend to use the RandomForestClassifier model as both the output and feature selection of the random faorest models are easy to interpret and they can easily handle outliers and non linear data. Furthermore, Random forest models are able to achieve comparable predictive accuracy on largee tabular data with less codee and fastter performance. 
 
