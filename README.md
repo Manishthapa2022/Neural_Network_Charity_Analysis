@@ -70,6 +70,7 @@ With reference to this dataset, we observed negigible improvement in the overall
 * Revisting the preprocessing process such as data cleaning, binning operations. We need to understand why we dropped EIN and NAMES column as instructed in Deliverable 1 and 2.  
 * Looking at the problem differently such as asking different questions that may lead to better results.
 * Fine tuning your hyper parameters
+
 In Conclusion, as we were not able to achieve the desired results, I would recommend analysing the data itself more critically before any modeling operations. 
 
 ### Recommendations
