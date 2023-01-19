@@ -57,8 +57,8 @@ For this project, I created three models and took the following steps:
 
 ![](https://github.com/Manishthapa2022/Neural_Network_Charity_Analysis/blob/main/Analysis/nn2_analysis.png)
 
-* Inn all three models (nn, nn1 and nn2), there was a gradual reduction in the number of the neurons starting from the first to last hidden layer to improve the dynamics of the model. 
-* Unfortunaetely, we were unable to achieve the Target model performance of 75%. 
+* In all three models (nn, nn1 and nn2), there was a gradual reduction in the number of the neurons starting from the first to last hidden layer to improve the dynamics of the model. The first layer neurons were 2 or 3 times the number of input features to provide the best training.  
+* Unfortunately, we were unable to achieve the Target model performance of 75%. 
 * To improve the overall performance of the model, additional columns with feature importance less than 1% were dropped. After that, three models nn, nn1 and nn2 were created where the number of neurons, no of hidden layers and the activation function were changed. No of epochs were not increased as there was negligible improvement in the accuracy scores at around epoch 30 to 40. 
 
 ## Summary
