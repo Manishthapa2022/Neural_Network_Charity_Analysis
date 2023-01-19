@@ -63,9 +63,14 @@ For this project, I created three models and took the following steps:
 
 ![Overall Results](https://github.com/Manishthapa2022/Neural_Network_Charity_Analysis/blob/main/Analysis/Overall_results.png)
 
-Overall, in spite of the changes made in the models on this dataset, there is negligible improvement in the overall accuracy score and our best model performance was 72.5% and we missed the overall target of 75% by 2.5%. 
+With reference to this dataset, we observed negigible improvement in the overall accuracy score inspite of making several changes such as increasing the number of neurons, adding more hidden layers, changing activation function and dropping less relevant features(columns). We missed the target by approx 2.5%. I would further recommend the following to achieve the target accuracy score.
+* Add more data samples
+* Revisting the preprocessing process such as data cleaning, binning operations. We need to understand why we dropped EIN and NAMES column as instructed in Deliverable 1 and 2.  
+* Looking at the problem differently such as asking different questions that may lead to better results.
+* Fine tuning your hyper parameters
+In Conclusion, as we were not able to achieve the desired results, I would recommend analysing the data itself more critically before any modeling operations. 
 
 ### Recommendations
 
-I would recommend to use the RandomForestClassifier model as both the output and feature selection of the random faorest models are easy to interpret and they can easily handle outliers and non linear data. Furthermore, Random forest models are able to achieve comparable predictive accuracy on largee tabular data with less codee and fastter performance. 
+For Classification problems, I would recommend to use the RandomForestClassifier model as both the output and feature selection of the random forest models are easy to interpret and they can easily handle outliers and non linear data. Furthermore, Random forest models are able to achieve comparable predictive accuracy on large tabular data with less code and faster performance. With regards to this dataset, I would recommend the revisit the steps underlined above prior to any model training and evaluation. 
 
