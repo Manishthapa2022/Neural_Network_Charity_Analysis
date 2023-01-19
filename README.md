@@ -15,6 +15,7 @@ For this project, I will be carrying out my analysis on Google Colabs.
 
 ### Data Preprocessing
 As part of the data preprocessing, the following was done:
+
 * IS_SUCCESSFUL was made the Target.
 * For deliverable 1 and 2, EIN and NAME columns were dropped from the dataset as they were considered neither Target nor Feature. For Deliverable 3,additional columns with feature importance less than 1% were dropped. 
 * For Deliverable 1 and 2, nine columns that is APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS and ASK_AMT were considered as features, whereas in case of Deliverable 3, 17 columns were selected after running the feature importance algorithm.  
