@@ -8,6 +8,7 @@ The foloowing are the technical deliverables as part of the project:
 * Compile, train, and evaluate the Model
 * Optimize the Model
 * A written report on Neural Network Model
+
 For this project, I will be carrying out my analysis on Google Colabs. 
 
 ## Results
@@ -72,5 +73,5 @@ In Conclusion, as we were not able to achieve the desired results, I would recom
 
 ### Recommendations
 
-For Classification problems, I would recommend to use the RandomForestClassifier model as both the output and feature selection of the random forest models are easy to interpret and they can easily handle outliers and non linear data. Furthermore, Random forest models are able to achieve comparable predictive accuracy on large tabular data with less code and faster performance. With regards to this dataset, I would recommend the revisit the steps underlined above prior to any model training and evaluation. 
+For Classification problems, I would recommend to use the RandomForestClassifier model as both the output and feature selection of the random forest models are easy to interpret and they can easily handle outliers and non linear data. Furthermore, Random forest models are able to achieve comparable predictive accuracy on large tabular data with less code and faster performance. With regards to this dataset, I would recommend to revisit the steps underlined above prior to any model training and evaluation. 
 
